@@ -35,19 +35,6 @@ python -m r2net.evaluate \
     --patch-batch-size 16
 ```
 
-## Documentation
-
-- Official English release document: [`R2NET_V2.md`](R2NET_V2.md)
-- Training configuration guide: [`configs/README.md`](configs/README.md)
-
-## What is in v2
-
-R²-Net v2 includes a corrected OC-Conv implementation, a completed ACE module,
-the structure-aware weighted Huber objective, identity-preserving patch
-merging, explicit training/validation/test separation, self-contained
-numerical operations, and reproducible training/evaluation scripts.
-
-See [`R2NET_V2.md`](R2NET_V2.md) for the full release note.
 
 ## License
 
